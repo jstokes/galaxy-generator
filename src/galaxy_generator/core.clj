@@ -45,7 +45,6 @@
 
 (defn draw-state
   [{:keys [stars rotation-angle] :as state}]
-  ; Clear the sketch by filling it with light-grey color.
   (q/frame-rate 15)
   (q/background 0)
   (q/stroke 255)
